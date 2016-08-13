@@ -28,8 +28,9 @@ h1{
 	color: $text-color;
 	padding: 20px;
 }
-.btn.custom-btn { @include border-radius(10px); }
+
 .btn.custom-btn  {
+	@include border-radius(10px);
 	background:$bg-color;
 	margin-top:30px;
 	a{
