@@ -16,44 +16,44 @@ $large-text: 16px;
 
 /* GLOBAL */
 body {
-	background: #f9f9f9;
+  background: $light-bg-color;
 }
 .container{
-	background: #fff;
-	padding: 0 30px;
-    width:100%;
+  background: #fff;
+  padding: 0 30px;
+  width:100%;
 }
 h1{
-	background:$dark-bg-color;
-	color: $text-color;
-	padding: 20px;
+  background:$dark-bg-color;
+  color: $text-color;
+  padding: 20px;
 }
 #footer{
-    margin-top:30px;
-    background:$dark-bg-color;
-    height: 20px;
+  margin-top:30px;
+  background:$dark-bg-color;
+  height: 20px;
 }
 
 /* LOGIN / REG */
 
 .user-form{
-    background: $light-bg-color;
-    padding: 30px 20px;
-}
+  background: $light-bg-color;
+  padding: 30px 20px;
+  }
 .btn.custom-btn  {
-    @include border-radius(10px);
-	background:$bg-color;
-	margin-top:30px;
-	a{
-        color: $text-color;
-	}
+  @include border-radius(10px);
+  background:$bg-color;
+  margin-top:30px;
+  a{
+	color: $text-color;
+  }
 }
 
 /* SHOW LIST */
 table tr td:nth-child(1){
-	font-size:$large-text;
+  font-size:$large-text;
 }
 
 .showNum{
-	font-weight:bold;
+  font-weight:bold;
 }
