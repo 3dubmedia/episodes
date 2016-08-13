@@ -2,6 +2,8 @@
 $main-font:  Aial, sans-serif;
 $main-color: #333;
 $bg-color: #000099;
+$dark-bg-color: #000;
+$light-bg-color: #efefef;
 $text-color: #fff;
 $large-text: 16px;
 
@@ -19,22 +21,31 @@ body {
 .container{
 	background: #fff;
 	padding: 0 30px;
-
+    width:100%;
 }
-
-/* LOGIN / REG */
 h1{
-	background:#000;
+	background:$dark-bg-color;
 	color: $text-color;
 	padding: 20px;
 }
+#footer{
+    margin-top:30px;
+    background:$dark-bg-color;
+    height: 20px;
+}
 
+/* LOGIN / REG */
+
+.user-form{
+    background: $light-bg-color;
+    padding: 30px 20px;
+}
 .btn.custom-btn  {
-	@include border-radius(10px);
+    @include border-radius(10px);
 	background:$bg-color;
 	margin-top:30px;
 	a{
-		color: $text-color;
+        color: $text-color;
 	}
 }
 
