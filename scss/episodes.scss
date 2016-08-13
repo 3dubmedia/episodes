@@ -6,7 +6,8 @@ $bg-color: #000099;
 $dark-bg-color: #000;
 $light-bg-color: #efefef;
 $text-color: #fff;
-$large-text: 16px;
+$large-text: 1.3em;
+$xlarge-text: 1.4em;
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
@@ -57,10 +58,11 @@ h1{
 
 /* SHOW LIST */
 
-table tr td:nth-child(1){
+table tr td:nth-child(1), th{
   font-size:$large-text;
 }
 
 .showNum{
   font-weight:bold;
+  font-size:$xlarge-text;
 }

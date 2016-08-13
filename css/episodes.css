@@ -34,10 +34,11 @@ h1 {
     color: #fff; }
 
 /* SHOW LIST */
-table tr td:nth-child(1) {
-  font-size: 16px; }
+table tr td:nth-child(1), th {
+  font-size: 1.3em; }
 
 .showNum {
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 1.4em; }
 
 /*# sourceMappingURL=episodes.css.map */
