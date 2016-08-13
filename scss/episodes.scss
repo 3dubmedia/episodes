@@ -1,4 +1,5 @@
 /* VARS */
+
 $main-font:  Aial, sans-serif;
 $main-color: #333;
 $bg-color: #000099;
@@ -15,19 +16,23 @@ $large-text: 16px;
 }
 
 /* GLOBAL */
+
 body {
   background: $light-bg-color;
 }
+
 .container{
   background: #fff;
   padding: 0 30px;
   width:100%;
 }
+
 h1{
   background:$dark-bg-color;
   color: $text-color;
   padding: 20px;
 }
+
 #footer{
   margin-top:30px;
   background:$dark-bg-color;
@@ -39,7 +44,8 @@ h1{
 .user-form{
   background: $light-bg-color;
   padding: 30px 20px;
-  }
+}
+
 .btn.custom-btn  {
   @include border-radius(10px);
   background:$bg-color;
@@ -50,6 +56,7 @@ h1{
 }
 
 /* SHOW LIST */
+
 table tr td:nth-child(1){
   font-size:$large-text;
 }
