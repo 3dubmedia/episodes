@@ -1,0 +1,47 @@
+/* VARS */
+$main-font:  Aial, sans-serif;
+$main-color: #333;
+$bg-color: #000099;
+$text-color: #fff;
+$large-text: 16px;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+/* GLOBAL */
+body {
+	background: #f9f9f9;
+}
+.container{
+	background: #fff;
+		padding: 0 30px;
+
+}
+
+/* LOGIN / REG */
+h1{
+	background:#000;
+	color: $text-color;
+	padding: 20px;
+}
+.btn.custom-btn { @include border-radius(10px); }
+.btn.custom-btn  {
+	background:$bg-color;
+	margin-top:30px;
+	a{
+		color: $text-color;
+	}
+}
+
+/* SHOW LIST */
+table tr td:nth-child(1){
+	font-size:$large-text;
+}
+
+.showNum{
+	font-weight:bold;
+}

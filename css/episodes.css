@@ -1,3 +1,35 @@
-.showNum{
-	font-weight:bold;
-}
+/* VARS */
+/* GLOBAL */
+body {
+  background: #f9f9f9; }
+
+.container {
+  background: #fff;
+  padding: 0 30px; }
+
+/* LOGIN / REG */
+h1 {
+  background: #000;
+  color: #fff;
+  padding: 20px; }
+
+.btn.custom-btn {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
+.btn.custom-btn {
+  background: #000099;
+  margin-top: 30px; }
+  .btn.custom-btn a {
+    color: #fff; }
+
+/* SHOW LIST */
+table tr td:nth-child(1) {
+  font-size: 16px; }
+
+.showNum {
+  font-weight: bold; }
+
+/*# sourceMappingURL=episodes.css.map */
